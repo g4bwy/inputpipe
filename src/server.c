@@ -77,7 +77,7 @@ struct listener {
 
 
 /* Configuration options */
-static char* config_uinput_path = "/dev/uinput";
+static char* config_uinput_path = "/dev/input/uinput";
 static int   config_tcp_port    = IPIPE_DEFAULT_PORT;
 static int   config_verbose     = 1;
 static int   config_inetd_mode  = 0;
